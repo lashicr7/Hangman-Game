@@ -1,0 +1,16 @@
+Hangman Assignment:
+
+Main concept:
+Here, we have 6 body parts. For every wrong guess, we lose a lose a body part. If we lose all 6 body parts ,we lose the game.If we have guessed the word correctly,we win the game
+
+Algorithm/Logic:
+Every time when we enter a character, first it will go into inputchck function. If that character is as specified, then we will check the word with that character is present in given word
+or  not + updating the Start by  if present in word. Then, we will print the body parts hung at that time using display sub. Finally, we check for winning case in win and losing case. 
+Atlast we will take input from the user whether he is willing to continue the game or not by 1(continue)/0(exit)
+
+Sub's:
+1)inputchck: It will check whether the given character is a valid input or not
+2)display: It will print the body parts which are hung at that point of time by taking argument tries.
+for display,instead of printing using array,I have printed them sequentially since we are regualarly adding parts as head,arms if player is wrong
+
+I have implemented checking the character presence in the word and whether game is won/not in the code itself
